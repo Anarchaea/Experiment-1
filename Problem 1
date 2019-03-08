@@ -1,0 +1,112 @@
+#include <iostream>
+#include <conio.h>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	double box;
+	double sideline;
+	double premium;
+	double genAd;
+
+	double box1;
+	double sideline1;
+	double premium1;
+	double genAd1;
+
+	double box2;
+	double sideline2;
+	double premium2;
+	double genAd2;
+
+	double box3;
+	double sideline3;
+	double premium3;
+	double genAd3;
+
+	cout << "Game 1		" << "	numberOfTicketsSold" << endl;
+	cout << "Box ($250)		";
+	cin >> box;
+	
+	cout << "Sideline ($100)		";
+	cin >> sideline;
+
+	cout << "Premium ($50)		";
+	cin >> premium;
+
+	cout << "General Admission($25)	";
+	cin >> genAd;
+
+
+	cout << "			  Total Sale Amount:";
+	cout<< fixed;
+	cout<< setprecision(2);
+	cout<< ((250.00*box)+(100.00*sideline)+(50.00*premium)+(25.00*genAd))<<endl;
+	
+
+		
+	
+	
+
+	cout << "Game 2		" << "	numberOfTicketsSold" << endl;
+	cout << "Box ($250)		";
+	cin >> box1;
+	
+	cout << "Sideline ($100)		";
+	cin >> sideline1;
+
+	cout << "Premium ($50)		";
+	cin >> premium1;
+
+	cout << "General Admission($25)	";
+	cin >> genAd1;
+
+	cout << "			  Total Sale Amount:";
+	cout<< fixed;
+	cout<< setprecision(2);
+	cout<< ((250.00*box1)+(100.00*sideline1)+(50.00*premium1)+(25.00*genAd1))<<endl;
+
+
+	cout << "Game 3		" << "	numberOfTicketsSold" << endl;
+	cout << "Box ($250)		";
+	cin >> box2;
+	
+	cout << "Sideline ($100)		";
+	cin >> sideline2;
+
+	cout << "Premium ($50)		";
+	cin >> premium2;
+
+	cout << "General Admission($25)	";
+	cin >> genAd2;
+
+	cout << "			  Total Sale Amount:";
+	cout<< fixed;
+	cout<< setprecision(2);
+	cout<< ((250.00*box2)+(100.00*sideline2)+(50.00*premium2)+(25.00*genAd2))<<endl;
+
+
+	cout << "Game 4		" << "	numberOfTicketsSold" << endl;
+	cout << "Box ($250)		";
+	cin >> box3;
+	
+	cout << "Sideline ($100)		";
+	cin >> sideline3;
+
+	cout << "Premium ($50)		";
+	cin >> premium3;
+
+	cout << "General Admission($25)	";
+	cin >> genAd3;
+
+	cout << "			  Total Sale Amount:";
+	cout<< fixed;
+	cout<< setprecision(2);
+	cout<< ((250.00*box3)+(100.00*sideline3)+(50.00*premium3)+(25.00*genAd3))<<endl;
+
+	_getch();
+	
+	return 0;
+
+}
